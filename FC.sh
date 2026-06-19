@@ -1,7 +1,5 @@
 #!/bin/bash
-# fake_contributions.sh
-# Generates backdated commits for the past 2 years (10–15 commits/month)
-# Usage: bash fake_contributions.sh
+
 
 REPO_DIR="contrib-history"
 AUTHOR_NAME="$(git config user.name)"
